@@ -11,4 +11,11 @@ import scrapy
 class MazituItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    url = scrapy.Field()
+    tags = scrapy.Field()
+    #图片的连接
+    src = scrapy.Field()
+    #alt为图片名字
+    alt = scrapy.Field()
+    
